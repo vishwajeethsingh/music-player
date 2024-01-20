@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Event Planner</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Create Event</a></li>
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero">
+    <h2>Welcome to Event Planner</h2>
+    <p>Plan and manage your events with ease!</p>
+</section>
+
+<section id="create-event">
+    <h2>Create an Event</h2>
+    <form action="#" method="post">
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" name="event-name" required>
+
+        <label for="event-date">Event Date:</label>
+        <input type="date" id="event-date" name="event-date" required>
+
+        <label for="event-description">Event Description:</label>
+        <textarea id="event-description" name="event-description" required></textarea>
+
+        <input type="submit" value="Create Event">
+    </form>
+</section>
+
+<section id="calendar">
+    <h2>Calendar View</h2>
+    <!-- Calendar implementation goes here -->
+</section>
+
+<section id="rsvp">
+    <h2>RSVP to an Event</h2>
+    <!-- RSVP form and functionality go here -->
+</section>
+
+<section id="login">
+    <h2>Login</h2>
+    <form action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Login">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Event Planner. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
